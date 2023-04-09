@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+  <link rel="stylesheet" href="style.css">
+  <link rel="shortcut icon" href="/img/logo.png" type="image/x-icon">
+  <title>Spotify-Clone</title>
+</head>
+
+<body>
+
+  <div class="navbar">
+    <span> <img src="img/logo.png" alt="">
+      <h1>Spotify</h1>
+    </span>
+  </div>
+  <!-------------------------------------------------------- Menu-side --------------------------------------------------->
+  <div class="container">
+    <div class="menu-side">
+      <span> <img src="img/logo.png" alt="">
+        <h1>Spotify</h1>
+      </span>
+
+      <div class="menu">
+        <h4><i class="bi bi-house-door-fill"></i>Home</h4>
+        <h4><i class="bi bi-search"></i>Search</h4>
+        <h4><i class="bi bi-music-note-list"></i>Your Library</h4>
+      </div>
+      <div class="playlist">
+        <h4><i class="bi bi-plus-square-fill"></i>Create Playlist</h4>
+        <h4><i class="bi bi-suit-heart-fill"></i>Liked Songs</h4>
+      </div>
+      <hr>
+    </div>
+
+    <!-------------------------------------------------------- song-side --------------------------------------------------->
+    <div class="song-side">
+      <div class="nav">
+        <button>Upgrade</button>
+        <a href=""><i class="bi bi-person-circle"></i> User</a>
+      </div>
+
+      <div class="content">
+        <h1>Trending Now</h1>
+
+        <div class="row" id="trending">
+          <div class="songs">
+            <img src="img/blindibg-lights.jpg" alt="">
+            <span><i id="0" class="bi p-btn bi-play-circle-fill"></i></span>
+            <h4 class="name">Blinding Lights</h4>
+            <h5 class="artits">The Weeknd</h5>
+          </div>
+          <div class="songs">
+            <img src="img/onMyWay.jpg" alt="">
+            <span><i id="1" class="bi p-btn bi-play-circle-fill"></i></span>
+            <h4 class="name">On My Way</h4>
+            <h5 class="artits">Alan Walker</h5>
+          </div>
+          <div class="songs">
+            <img src="img/four.jpg" alt="">
+            <span><i id="2" class="bi p-btn bi-play-circle-fill"></i></span>
+            <h4 class="name">Night Changes</h4>
+            <h5 class="artits">One Direction</h5>
+          </div>
+          <div class="songs kalesh">
+            <img src="img/kaleshChori.jpg" alt="">
+            <span><i id="3" class="bi p-btn bi-play-circle-fill"></i></span>
+            <h4 class="name">Kalesh Chori</h4>
+            <h5 class="artits">DG IMMORTALS, Raga...</h5>
+          </div>
+        </div>
+
+        <h1>Try Something Else</h1>
+
+        <div class="row" id="else">
+          <div class="songs">
+            <img src="img/As You Are.jpeg" alt="">
+            <span><i id="4" class="bi p-btn bi-play-circle-fill"></i></span>
+            <h4 class="name">As You Are</h4>
+            <h5 class="artits">The Weeknd</h5>
+          </div>
+
+          <div class="songs">
+            <img src="img/DarkSide.jpg" alt="">
+            <span><i id="5" class="bi p-btn bi-play-circle-fill"></i></span>
+            <h4 class="name">Darkside</h4>
+            <h5 class="artits">Alan Walker</h5>
+          </div>
+          <div class="songs">
+            <img src="img/midnight memories.jpg" alt="">
+            <span><i id="6" class="bi p-btn bi-play-circle-fill"></i></span>
+            <h4 class="name">Through the Dark</h4>
+            <h5 class="artits">One Direction</h5>
+          </div>
+          <div class="songs">
+            <img src="img/pathaan.jpg" alt="">
+            <span><i id="7" class="bi p-btn bi-play-circle-fill"></i></span>
+            <h4 class="name">pathaan</h4>
+            <h5 class="artits">Vishal-Shekhar, Sanchit...</h5>
+          </div>
+        </div>
+
+        <h1>English Songs</h1>
+
+        <div class="row" id="english">
+          <div class="songs">
+            <img src="img/i was never.jpg" alt="">
+            <span><i id="8" class="bi p-btn bi-play-circle-fill"></i></span>
+            <h4 class="name">I Was Never There</h4>
+            <h5 class="artits">The Weeknd</h5>
+          </div>
+          <div class="songs">
+            <img src="img/Alone.png" alt="">
+            <span><i id="9" class="bi p-btn bi-play-circle-fill"></i></span>
+            <h4 class="name">Alone</h4>
+            <h5 class="artits">Alan Walker</h5>
+          </div>
+          <div class="songs">
+            <img src="img/friends.jpg" alt="">
+            <span><i id="10" class="bi p-btn bi-play-circle-fill"></i></span>
+            <h4 class="name">Friends</h4>
+            <h5 class="artits">Anne-Marie</h5>
+          </div>
+          <div class="songs">
+            <img src="img/up all night.jpg" alt="">
+            <span><i id="11" class="bi p-btn bi-play-circle-fill"></i></span>
+            <h4 class="name">Another world</h4>
+            <h5 class="artits">One Direction</h5>
+          </div>
+        </div>
+
+        <h1>Romantic Songs</h1>
+        <div class="row" id="Romantic">
+          <div class="songs">
+            <img src="img/Khushi-Jab-Bhi-Teri.jpg" alt="">
+            <span><i id="12" class="bi p-btn bi-play-circle-fill"></i></span>
+            <h4 class="name">Khushi Jab Bhi Teri</h4>
+            <h5 class="artits">Jubin Nautiyal</h5>
+          </div>
+          <div class="songs">
+            <img src="img/Ishq-Sufiyana.jpg" alt="">
+            <span><i id="13" class="bi p-btn bi-play-circle-fill"></i></span>
+            <h4 class="name">Ishq Sufiyana</h4>
+            <h5 class="artits">Dr Krishna N Sharma</h5>
+          </div>
+          <div class="songs">
+            <img src="img/Chaand-Baaliyan.jpg" alt="">
+            <span><i id="14" class="bi p-btn bi-play-circle-fill"></i></span>
+            <h4 class="name">Chaand Baaliyan</h4>
+            <h5 class="artits">Aditya A.</h5>
+          </div>
+          <div class="songs">
+            <img src="img/koochNaKarin.jpg" alt="">
+            <span><i id="15" class="bi p-btn bi-play-circle-fill"></i></span>
+            <h4 class="name">Kooch Na Karin</h4>
+            <h5 class="artits">Azhar Abbas</h5>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-------------------------------------------------------- player ------------------------------------------------------>
+    <div class="player">
+
+      <img src="img/blindibg-lights.jpg" alt="" id="player-poster">
+      <h5 id="title">Blinding Lights
+        <div class="subtitle"><span id="artists-name"> The Weeknd</span></div>
+      </h5>
+      <div class="icons">
+        <i class="bi shuffle bi-shuffle"></i>
+        <i class="bi bi-skip-start-fill" id="previous"></i>
+        <i class="bi bi-play-circle-fill" id="masterplay"></i>
+        <i class="bi bi-skip-end-fill" id="next"></i>
+        <i class="bi repeat bi-repeat"></i>
+        <div class="play-timer">
+          <span id="start">0:00</span>
+          <input type="range" id="progressBar" min="0" value="0" max="100">
+          <span id="end">0:00</span>
+        </div>
+      </div>
+
+      <div class="vol" id="volm">
+        <i class="bi bi-collection"></i>
+        <i class="bi bi-pc-display"></i>
+        <i class="bi volume bi-volume-down" id="volume_icon"></i>
+        <input type="range" id="volume" min="0" max="100">
+      </div>
+
+    </div>
+
+  </div>
+
+
+
+  <script src="JavaScript.js"></script>
+</body>
+
+</html>
